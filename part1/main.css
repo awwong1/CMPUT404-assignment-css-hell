@@ -1,0 +1,77 @@
+/*
+   Copyright 2013-2014 Alexander Wong, Abram Hindle
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+*/
+
+/* General html css style, set background and fonts */
+html {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 125%;
+  background: #f0f0f0;
+}
+
+/* Theme paragraphs with css */
+p {
+  color: #282828;
+  margin-left: 50px;
+  margin-right: 75px;
+}
+
+/* Theme header tags with css */
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: 15px 15px 15px #505050;
+  letter-spacing: 2px;
+}
+
+/* Theme images and image captions with CSS */
+img {
+  opacity: 0.4;
+  filter:alpha(opacity=40);
+  max-width:302px;
+}
+
+img:hover {
+  opacity: 1;
+  filter:alpha(opacity=100);
+}
+
+figure {
+  margin: 1.5em;  
+  float: right;
+  width: 304px;
+  height: auto;
+  border: 1px solid #cccfff;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+figcaption {
+  word-wrap: break-word;
+  font-size: 80%;
+}
+
+/* Various css stylings */
+pre {
+  text-align: center;
+}
+
+.toc {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+a:hover {
+  outline-style: outset;
+  outline-color: #000000;
+}
