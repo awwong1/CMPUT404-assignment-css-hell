@@ -1,0 +1,142 @@
+html
+{
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  background-color: grey;
+  font-size: 125%;
+}
+
+#topblock
+{
+  margin-left: 50px;
+  margin-right:50px;
+  margin-top: 25px;
+  margin-bottom:10px;
+  display: block;
+  background-color: white;
+  height: 75px;
+  border-style: solid;
+}
+
+#header
+{
+  margin-top: 15px;
+  margin-left: 25px;
+  float: left;
+}
+
+#primaryheader
+{
+  font-size: 125%;
+}
+
+#subheader
+{
+  font-size: 110%;
+  opacity: 0.6;
+  font-style: italic;
+}
+
+#navblock
+{
+  margin-top: 25px;
+  margin-right: 15px;
+  float: right;
+}
+
+#content
+{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+  margin-botton: 25px;
+  display: block;
+}
+
+.section
+{
+  border-style: solid;
+  background-color: white;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.sectionhead
+{
+  text-align: center;
+  font-size: 140%;
+  letter-spacing: 1px;
+  text-shadow: 3px 3px #c0c0c0;
+}
+
+.sectionbody
+{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#about
+{
+  text-align: center;
+}
+
+.historychunk
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.historychunk:nth-child(even)
+{
+  text-align: right;
+}
+
+.historychunk:nth-child(odd)
+{
+  text-align: left;
+}
+
+.historytitle
+{
+  font-variant: small-caps;
+  font-size: 125%;
+}
+
+.historylocation
+{
+  font-weight: 200;
+  font-size: 90%;
+}
+
+.historyplacetime
+{
+  font-size: 90%;
+  opacity:0.6;
+}
+
+.historydetails
+{
+  font-weight: 100;
+}
+
+.skillchunk
+{
+  display: inline;
+  margin: 10px 10px 10px 10px;
+}
+
+.skillchunk:nth-child(odd)
+{
+  text-align: right;
+  float: right;
+}
+
+.skillchunk:nth-child(even)
+{
+  text-align: left;
+}
+
+#notes
+{
+}
