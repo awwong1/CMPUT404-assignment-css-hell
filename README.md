@@ -14,13 +14,22 @@ git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
 General Documentation
 =====================
-No collaboration was used in this project. All CSS code is writted by Alexander Wong, with reference from the w3schools documentation.
+No collaboration was used in this project. All CSS and HTML code is written by Alexander Wong, with reference from the w3schools documentation.
 
 Part 1 Documentation
 ====================
 All pulled html files have the style block commented out. 
 
 In Grimm's Fairy Tales by Jacon Grimm and Wilhelm Grimm, I added an image of the Grimm brothers including an image caption. I have cited the source from wikipedia, and I have included the url as a code comment within the html file.
+
+Part 2 Documentation
+====================
+All html files are written by Alexander Wong and licensed under the Apache 2.0 license. All CSS files are written by Alexander Wong and licensed under the Apache 2.0 license.
+
+Liberties taken with Part 2 of the assignment:
+
+* Did not strive to make my personal webpage look as close to the oatmeal comic as possible, however I believe the essence of the bad design is there. I have the babbling sheep and pet images everywhere!
+* Used some webkit animation stuff for the top section bar area.
 
 License/Copyright
 =================
