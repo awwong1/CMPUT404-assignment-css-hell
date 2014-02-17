@@ -4,6 +4,7 @@ html
   color: blue;
   background-image: url('images/lamma.gif');
   font-size: 125%;
+  min-width: 800px;
 }
 
 #topblock
@@ -16,6 +17,10 @@ html
   background-color: red;
   height: 100px;
   border-style: dotted;
+  
+  animation: myfirst 5s linear 2s infinite alternate;
+  /* Safari and Chrome: */
+  -webkit-animation: myfirst 5s linear 2s infinite alternate;
 }
 
 #header
@@ -56,7 +61,7 @@ html
 .section
 {
   border-style: dotted;
-  background-color: red;
+  background-image: url('images/doge.jpg');
   padding: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -139,7 +144,19 @@ html
   text-align: left;
 }
 
-:hover
+.section:hover
 {
   opacity: 1.0;
+}
+
+@keyframes myfirst
+{
+  from {background: red;}
+  to {background: yellow;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+  from {background: red;}
+  to {background: yellow;}
 }
