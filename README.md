@@ -30,6 +30,7 @@ Liberties taken with Part 2 of the assignment:
 
 * Did not strive to make my personal webpage look as close to the oatmeal comic as possible, however I believe the essence of the bad design is there. I have the babbling sheep and pet images everywhere!
 * Used some webkit animation stuff for the top section bar area.
+* I didn't have a sidebar of points, instead I made it a section that spanned the width of the page.
 
 License/Copyright
 =================
